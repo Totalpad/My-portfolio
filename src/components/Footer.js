@@ -12,7 +12,7 @@ function Footer() {
         <a href='https://www.instagram.com/de_nikitus/' target='_blank'> <InstagamIcon /></a> 
       </div>
 
-      <p> &copy; 2023 perehudov.com</p>
+      <p> &copy; 2023 perehudov.online</p>
     </div>
   )
 }

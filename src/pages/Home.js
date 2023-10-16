@@ -14,28 +14,28 @@ import git from '../assets/git.png'
 
 
 
+
 function Home() {
   return (
     <div className='home'>
       <div className='about'>
         
-        <img src={photo} alt='photo' />
-        <h2>Hi, I am Nikita</h2>
+        <img src={photo} alt='my photo'/>
+        <h2>Hi 👋, I am Nikita</h2>
         <div className='prompt'>
-          <p>A React Front-End Developer with a passion for learning and creating.</p>
-        <LinkedInIcon />
-        <EmailIcon />
-        <GithubIcon />
+          <p>A React Front-End Developer 👨‍💻.</p>
+        <a href='https://www.linkedin.com/in/nikita-perehudov/' target='_blank'><LinkedInIcon /></a>
+        <a href='mailto:perehudovnikita@gmail.com' target='_blank'><EmailIcon /></a>
+        <a href='https://github.com/Totalpad?tab=repositories' target='_blank'><GithubIcon /></a>
         
         </div>
-      
       </div>
 
       <div className='skills'> 
-      <h1>Skills</h1>
+      <h1>Skills 🛠</h1>
       <ol className='list'>
         <li className='item'>
-          <h2>Front-End</h2>
+          <h2>Front-End 🖌</h2>
         </li>
       </ol>
       <span className='icons'> 
@@ -46,7 +46,9 @@ function Home() {
             <img src={git} alt='git'/>
             </span>
       </div>
+      
     </div>
+    
   )
 }
 

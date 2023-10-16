@@ -15,6 +15,7 @@
     margin: 20px;
     font-size: 70px;
     cursor: pointer;
+    transition: color 0.3s;  
   }
   .socialMedia svg:hover {
     color: #00d1cd;
