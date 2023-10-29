@@ -1,0 +1,28 @@
+.card {
+  /* background-color: #ccc; */
+  width: 250px;
+  /* height: 150px; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  transition: all 0.1s ease;
+  border-radius: 3rem;
+  /* position: relative; */
+  z-index: 1;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); */
+  /* overflow: hidden; */
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(2);
+    z-index: 2;
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 100px;
+    border-radius: 1rem;
+  }
+}

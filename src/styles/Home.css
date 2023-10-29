@@ -1,116 +1,115 @@
 .home {
-    width: 100%;
-    align-items: center;
-    font-family: var(--font-alt);
-    line-height: 0.8;
-    color: black;
-  }
-  
-  .about {
-    width: 100%;
-    height: calc(100vh - 100px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #444444;
-    color: #f0f0f0;
-    -webkit-box-shadow: 0px 11px 8px 0px rgba(0,0,0,0.64);
-    -moz-box-shadow: 0px 11px 8px 0px rgba(0,0,0,0.64);
-    box-shadow: 0px 11px 8px 0px rgba(0,0,0,0.64);
-  }
-  .about img {
-    width: 250px;
-    border-radius: 15px;
-    -webkit-box-shadow: 18px 20px 16px 0px rgba(0,0,0,0.64);
-    -moz-box-shadow: 18px 20px 16px 0px rgba(0,0,0,0.64);
-    box-shadow: 18px 20px 16px 0px rgba(0,0,0,0.64);
+  width: 100%;
+  align-items: center;
+  font-family: var(--font-alt);
+  line-height: 0.8;
+  color: black;
+}
+
+.about {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #444444;
+  color: #f0f0f0;
+  -webkit-box-shadow: 0px 11px 8px 0px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 0px 11px 8px 0px rgba(0, 0, 0, 0.64);
+  box-shadow: 0px 11px 8px 0px rgba(0, 0, 0, 0.64);
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+.about img {
+  width: 250px;
+  border-radius: 15px;
+  -webkit-box-shadow: 18px 20px 16px 0px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 18px 20px 16px 0px rgba(0, 0, 0, 0.64);
+  box-shadow: 18px 20px 16px 0px rgba(0, 0, 0, 0.64);
+}
+
+.about h2 {
+  font-family: var(--font-head);
+  font-size: 80px;
+  color: #00d1cd;
+  height: 50px;
+}
+
+.about .prompt {
+  width: 40%;
+  font-size: 30px;
+}
+.prompt svg {
+  font-size: 60px;
+  margin: 5px;
+  color: white;
+  transition: color 0.3s;
+}
+.prompt svg:hover {
+  color: #00d1cd;
+}
+
+.skills {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills h1 {
+  color: #00d1cd;
+  font-family: var(--font-head);
+}
+
+.skills .list {
+  list-style: none;
+  width: 60%;
+}
+
+.icons img {
+  /* width: 200px; */
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  /* gap: 1rem; */
+  /* padding: 0 1rem; */
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 40px;
   }
 
-  
-  .about h2 {
-    font-family: var(--font-head);
-    font-size: 80px;
-    color: #00d1cd;
-    height: 50px;
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
   }
-  
+  .icons img {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
   .about .prompt {
-    width: 40%;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .skills {
+    text-align: center;
+  }
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
     font-size: 30px;
   }
-  .prompt svg {
-    font-size: 60px;
-    margin: 5px;
-    color: white;
-    transition: color 0.3s;  
-  }
-  .prompt svg:hover {
-    color: #00d1cd;
-  }
-  
-  .skills {
-    font-size: 35px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .skills h1 {
-    color: #00d1cd;
-    font-family: var(--font-head);
-  }
-  
-  .skills .list {
-    list-style: none;
-    width: 60%;
-  }
-  
-  
-  .icons img {
-    width: 200px;
-    display: flex;
-    flex-direction: row;
-    padding: 0 1rem;
-    align-items: center;
-  
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .about h2 {
-      font-size: 40px;
-    }
-
-    .icons {
-      display: flex;
-      flex-wrap: wrap;
-     
-    }
-    .icons img {
-      width: 100px;
-      display: flex;
-      flex-direction: column;
-      margin-top: 1rem;
-    }
-
-  
-    .about .prompt {
-      margin-top: 10px;
-      font-size: 20px;
-      width: 80%;
-    }
-  
-    .skills {
-      text-align: center;
-    }
-    .list {
-      padding: 0;
-    }
-  
-    .skills h2 {
-      font-size: 30px;
-    }
-  }
+}

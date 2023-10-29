@@ -6,7 +6,7 @@ import Porject5 from "../assets/project5.png";
 import Porject6 from "../assets/project6.png";
 import Porject7 from "../assets/project7.png";
 import Porject8 from "../assets/project8.png";
-import Porject9 from "../assets/project9.png";
+import Porject9 from "../assets/project9.jpg";
 import Porject10 from "../assets/project10.png";
 
 import inprogress from "../assets/inprogress.jpeg";
@@ -24,8 +24,8 @@ export const ProjectList = [
     name: "🎴 Tarot Cards 🎴",
     image: Porject9,
     description:
-      "The Tarot Card Explorer is a web application that allows users to explore the mystical world of Tarot cards. With a simple and intuitive interface, users can search for Tarot cards by name and click on them to reveal their meanings and interpretations.",
-    skills: "React, JavaScript,CSS,",
+      "The Tarot Card is a web application that allows users to explore the mystical world of Tarot cards. With a simple and intuitive interface, users can search for Tarot cards by name and click on them to reveal their meanings and interpretations.",
+    skills: "React, JavaScript, CSS ",
     link: "https://tarot.perehudovnikita.online/",
     git: "https://github.com/Totalpad/Tarot",
   },

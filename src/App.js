@@ -10,6 +10,7 @@ import ProjectDisplay from './pages/ProjectDisplay'
 function App() {
   return (
     <div className="App">
+      <div className="backimage">
       <Router>
         
         <Navbar />
@@ -23,6 +24,7 @@ function App() {
 
         <Footer/>
       </Router>
+      </div>
     </div>
   );
 }

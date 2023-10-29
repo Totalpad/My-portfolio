@@ -8,11 +8,9 @@ function Footer() {
   return (
     <div className='footer'>
       <div className='socialMedia'>
-        <a href='https://www.linkedin.com/in/nikita-perehudov/' target='_blank'> <LinkedInIcon /></a>
-        <a href='https://www.instagram.com/de_nikitus/' target='_blank'> <InstagamIcon /></a> 
+        <a href='https://www.linkedin.com/in/nikita-perehudov/' target='_blank'><LinkedInIcon /></a>
+        <a href='https://www.instagram.com/de_nikitus/' target='_blank'><InstagamIcon /></a> 
       </div>
-
-      <p> &copy; 2023 perehudov.online</p>
     </div>
   )
 }
