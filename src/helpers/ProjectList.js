@@ -8,11 +8,11 @@ import Porject7 from "../assets/project7.png";
 import Porject8 from "../assets/project8.png";
 import Porject9 from "../assets/project9.jpg";
 import Porject10 from "../assets/project10.png";
+import Porject11 from "../assets/project11.png";
 
 import inprogress from "../assets/inprogress.jpeg";
 
 export const ProjectList = [
-
   {
     name: "Coming soon...",
     image: inprogress,
@@ -37,15 +37,25 @@ export const ProjectList = [
     link: "https://kinolab.perehudovnikita.online/",
     git: "https://github.com/Totalpad/kinoLab",
   },
+
+  {
+    name: "React Quiz 🙋‍♂️",
+    image: Porject11,
+    description: `React Quiz, is a web application with Tests for React developers.`,
+    skills: "React(useReducer ... ), JavaScript",
+    link: "https://react-quiz.perehudovnikita.online/",
+    git: "https://github.com/Totalpad/React-Quiz",
+  },
+
   {
     name: "Eat & Split 💰",
     image: Porject10,
-    description:`It is a simple app designed to help you split expenses with your friends after dining out.` ,
+    description: `It is a simple app designed to help you split expenses with your friends after dining out.`,
     skills: "Custom Hooks,LocalStorage JavaScript,CSS,",
     link: "https://kinolab.perehudovnikita.online/",
     git: "https://github.com/Totalpad/kinoLab",
   },
- 
+
   {
     name: "My Portfolio 🙋‍♂️",
     image: Porject4,
@@ -91,7 +101,7 @@ export const ProjectList = [
     link: "https://gpt-site.perehudovnikita.online/",
     git: "https://github.com/Totalpad/GPT-site",
   },
- 
+
   {
     name: "Movie Library 🍿",
     image: Porject5,
@@ -99,5 +109,4 @@ export const ProjectList = [
     link: "http://movie-library.lovelylowbattery.com/",
     git: "https://github.com/Totalpad/Movie-Library",
   },
-
 ];

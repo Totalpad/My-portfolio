@@ -16,8 +16,14 @@
   &:hover {
     transform: scale(2);
     z-index: 2;
+
     /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); */
   }
+}
+
+.icons img:hover {
+  /* filter: drop-shadow(0 0 2em #28182baa); */
+  filter: drop-shadow(0 0 1rem #07e6eaaa);
 }
 
 @media only screen and (max-width: 600px) {

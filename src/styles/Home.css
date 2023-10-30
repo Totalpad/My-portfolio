@@ -67,15 +67,20 @@
 
 .skills .list {
   list-style: none;
+}
+.icons {
   width: 60%;
+  flex-wrap: wrap;
 }
 
+/* .icons img:hover {
+  filter: drop-shadow(0 0 2em #28182baa);
+} */
+
 .icons img {
-  /* width: 200px; */
+  width: 200px;
   display: flex;
-  gap: 1rem;
-  flex-direction: row;
-  /* gap: 1rem; */
+
   /* padding: 0 1rem; */
   align-items: center;
 }

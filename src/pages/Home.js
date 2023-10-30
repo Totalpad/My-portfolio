@@ -5,11 +5,12 @@ import GithubIcon from "@mui/icons-material/GitHub";
 import "../styles/Home.css";
 import PhotoCard from "../components/PhotoCard";
 import photo from "../assets/npphoto.jpg";
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import js from "../assets/js.png";
-import react from "../assets/react.png";
-import git from "../assets/git.png";
+import html from "../assets/html.webp";
+import css from "../assets/css.webp";
+import js from "../assets/js.webp";
+import react from "../assets/react.webp";
+import git from "../assets/git.webp";
+import vite from "../assets/vite.png";
 
 function Home() {
   return (
@@ -39,22 +40,15 @@ function Home() {
 
       <div className="skills">
         <h1>Skills 🛠</h1>
-
+        
         <span className="icons">
           <PhotoCard img={html} />
           <PhotoCard img={css} />
           <PhotoCard img={js} />
           <PhotoCard img={react} />
           <PhotoCard img={git} />
+          <PhotoCard img={vite}/>
         </span>
-
-        {/* <span className="icons">
-          <img src={html} alt="html" />
-          <img src={css} alt="css" />
-          <img src={js} alt="js" />
-          <img src={react} alt="react" />
-          <img src={git} alt="git" />
-        </span> */}
       </div>
     </div>
   );
