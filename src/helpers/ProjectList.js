@@ -9,6 +9,8 @@ import Porject8 from "../assets/project8.png";
 import Porject9 from "../assets/project9.jpg";
 import Porject10 from "../assets/project10.png";
 import Porject11 from "../assets/project11.png";
+import Porject12 from "../assets/project12.png";
+import Porject13 from "../assets/project13.png";
 
 import inprogress from "../assets/inprogress.jpeg";
 
@@ -19,6 +21,24 @@ export const ProjectList = [
     skills: "",
     link: "",
     git: "",
+  },
+  {
+    name: "🏨 The Wild Oasis 🏨",
+    image: Porject13,
+    description:
+      "The Wild Oasis is an app for hotel workes to keep track of the visitors, managing the cabins and so on...  To login to this site use test@gmail.com login and test123 password  ",
+    skills: "React Query, Supabase for backend, ReactRouter, Styled-components, Recharts(charting library)  ",
+    link: "https://cabin-wild-oasis.netlify.app",
+    git: "https://github.com/Totalpad/TheWildOasis",
+  },
+  {
+    name: "🍕 Pizza Day 🍕",
+    image: Porject12,
+    description:
+      "This React pizza day app lets users browse a delicious menu, effortlessly order their favorites, and track their orders with ease",
+    skills: "React, Redux, Tailwind",
+    link: "https://pizzaday.perehudovnikita.online/",
+    git: "https://github.com/Totalpad/PizzaDay",
   },
   {
     name: "🎴 Tarot Cards 🎴",
@@ -52,8 +72,8 @@ export const ProjectList = [
     image: Porject10,
     description: `It is a simple app designed to help you split expenses with your friends after dining out.`,
     skills: "Custom Hooks,LocalStorage JavaScript,CSS,",
-    link: "https://kinolab.perehudovnikita.online/",
-    git: "https://github.com/Totalpad/kinoLab",
+    link: "https://eat-n-split.perehudovnikita.online/",
+    git: "https://github.com/Totalpad/TipCalculator",
   },
 
   {

@@ -11,6 +11,7 @@ import js from "../assets/js.webp";
 import react from "../assets/react.webp";
 import git from "../assets/git.webp";
 import vite from "../assets/vite.png";
+import tailwind from "../assets/tailwind.png";
 
 function Home() {
   return (
@@ -40,14 +41,15 @@ function Home() {
 
       <div className="skills">
         <h1>Skills 🛠</h1>
-        
+
         <span className="icons">
           <PhotoCard img={html} />
           <PhotoCard img={css} />
           <PhotoCard img={js} />
           <PhotoCard img={react} />
+          <PhotoCard img={tailwind} />
           <PhotoCard img={git} />
-          <PhotoCard img={vite}/>
+          <PhotoCard img={vite} />
         </span>
       </div>
     </div>
